@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mail</title>
+</head>
+<body>
+    <form action="http://localhost:3000/" method="POST">
+         <label >Enter Content:</label>
+         <br>
+        <textarea name="content" row="3" coloum="5" id="content" ></textarea><br>
+        <br>
+        <label>Enter your Email:</label>
+        <input type="email" name="email" >
+        <input type="file" name="file" placeholder="Select  your file"><br>
+        <button type="submit" value="submit" name="email" 
+        formaction="http://localhost:3000/email" method="POST">SUBMIT</button>
+        <br>
+        <br>
+       <label>Enter the Mobile Number:</label>
+       <input type="number" name="number">
+       <button type="submit" value="submit" name="number" 
+       formaction="http://localhost:3000/number" method="POST">SUBMIT</button>
+        <br> 
+    </form>
+   
+</body>
+</html>
